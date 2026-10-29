@@ -1,0 +1,218 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Fotografi Wisuda by Ray Dharma</title>
+    <link rel="stylesheet" href="style.css">
+    <!-- Font Awesome untuk Icon -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <!-- Google Fonts -->
+    <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;500;600;700&family=Playfair+Display:wght@600;700&display=swap" rel="stylesheet">
+</head>
+<body>
+    <!-- Navbar -->
+    <header class="navbar">
+        <div class="container nav-container">
+            <a href="#" class="logo">Ray Dharma <span>Wisuda</span></a>
+            <nav class="nav-links" id="navLinks">
+                <a href="#home">Beranda</a>
+                <a href="#about">Keunggulan</a>
+                <a href="#packages">Price List</a>
+                <a href="#portfolio">Galeri</a>
+                <a href="#contact" class="nav-cta">Booking Sekarang</a>
+            </nav>
+            <div class="menu-toggle" id="mobileMenu">
+                <i class="fas fa-bars"></i>
+            </div>
+        </div>
+    </header>
+
+    <!-- Hero Section dengan Background Carousel -->
+    <section id="home" class="hero">
+        <!-- Background Slider Images (portfolio-1.png s/d portfolio-3.png) -->
+        <div class="hero-bg-carousel">
+            <div class="slide slide-1" style="background-image: url('portfolio-1.png');"></div>
+            <div class="slide slide-2" style="background-image: url('portfolio-2.png');"></div>
+            <div class="slide slide-3" style="background-image: url('portfolio-3.png');"></div>
+        </div>
+        
+        <!-- Dark Overlay untuk memastikan teks tetap terbaca tajam -->
+        <div class="hero-overlay"></div>
+
+        <div class="container hero-content">
+            <span class="badge">🎓 Professional Graduation Photography</span>
+            <h1>Abadikan Momen Berhargamu Bersama <span class="highlight">Ray Dharma</span></h1>
+            <p>Rayakan kelulusanmu tanpa batasan waktu. Sesi foto fleksibel, hasil kilat, & kualitas sinematik untuk hari spesialmu.</p>
+            <div class="hero-btns">
+                <a href="#packages" class="btn btn-primary">Lihat Price List <i class="fas fa-arrow-right"></i></a>
+                <a href="https://wa.me/6285119337039?text=Halo%20Ray,%20saya%20mau%20tanya-tanya%20jadwal%20foto%20wisuda" target="_blank" class="btn btn-secondary"><i class="fab fa-whatsapp"></i> Chat WhatsApp</a>
+            </div>
+        </div>
+    </section>
+
+    <!-- Features Section -->
+    <section id="about" class="features">
+        <div class="container">
+            <div class="section-title">
+                <h2>Kenapa Harus Pilih <span class="highlight">Ray Dharma?</span></h2>
+                <p>Saya memberikan pengalaman pemotretan wisuda yang nyaman, bebas stres, & memuaskan.</p>
+            </div>
+            <div class="feature-grid">
+                <div class="feature-card">
+                    <div class="icon-box"><i class="fas fa-infinity"></i></div>
+                    <h3>Tanpa Batasan Waktu</h3>
+                    <p>Bebas seharian sampai kamu puas! Tidak perlu terburu-buru mengejar durasi jam foto.</p>
+                </div>
+                <div class="feature-card">
+                    <div class="icon-box"><i class="fas fa-bolt"></i></div>
+                    <h3>Kilat Max 24 Jam</h3>
+                    <p>Hasil editan pilihan dikirim maksimal dalam 24 jam setelah sesi foto selesai.</p>
+                </div>
+                <div class="feature-card">
+                    <div class="icon-box"><i class="fas fa-folder-open"></i></div>
+                    <h3>Unlimited Photo Files</h3>
+                    <p>Semua file master foto (mentah/all files) dikirimkan penuh tanpa ada yang disembunyikan.</p>
+                </div>
+                <div class="feature-card">
+                    <div class="icon-box"><i class="fas fa-camera-retro"></i></div>
+                    <h3>Equipment Profesional</h3>
+                    <p>Didukung gear high-end Sony A7 III & lensa prime premium untuk hasil tajam & sinematik.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Packages Section -->
+    <section id="packages" class="packages">
+        <div class="container">
+            <div class="section-title">
+                <h2>Pilihan Paket <span class="highlight">Wisuda</span></h2>
+                <p>Pilih paket yang paling pas untuk merayakan hari kelulusanmu.</p>
+            </div>
+            <div class="package-grid">
+                <!-- Paket Solo -->
+                <div class="package-card popular">
+                    <div class="popular-tag">Paling Laris</div>
+                    <div class="package-header">
+                        <h3>Paket Solo Graduate</h3>
+                        <div class="price">IDR 400.000</div>
+                        <p>Eksklusif untuk 1 orang wisudawan/wisudawati.</p>
+                    </div>
+                    <ul class="package-features">
+                        <li><i class="fas fa-check"></i> <strong>Unlimited Waktu (Seharian Sampai Puas)</strong></li>
+                        <li><i class="fas fa-check"></i> <strong>Unlimited Photo Files</strong> (Semua file dikasih)</li>
+                        <li><i class="fas fa-check"></i> <strong>Max 24 Jam Pengerjaan Edit</strong></li>
+                        <li><i class="fas fa-check"></i> 10 Foto Retouch Pilihan Utama</li>
+                        <li><i class="fas fa-check"></i> 1 Lokasi Pilihan di Kampus/Area Sekitar</li>
+                        <li><i class="fas fa-check"></i> Free Konsultasi Gaya & Konsep</li>
+                    </ul>
+                    <a href="https://wa.me/6285119337039?text=Halo%20Ray,%20saya%20tertarik%20booking%20Paket%20Solo%20Graduate%20(400k)" target="_blank" class="btn btn-primary btn-block">Booking Paket Solo</a>
+                </div>
+
+                <!-- Paket Duet / Bestie -->
+                <div class="package-card">
+                    <div class="package-header">
+                        <h3>Paket Duet / Bestie</h3>
+                        <div class="price">IDR 650.000</div>
+                        <p>Cocok untuk berdua (Pasangan atau Sahabat).</p>
+                    </div>
+                    <ul class="package-features">
+                        <li><i class="fas fa-check"></i> Untuk 2 Orang (Wisudawan + Partner/Bestie)</li>
+                        <li><i class="fas fa-check"></i> <strong>Unlimited Waktu (Seharian Sampai Puas)</strong></li>
+                        <li><i class="fas fa-check"></i> <strong>Unlimited Photo Files</strong></li>
+                        <li><i class="fas fa-check"></i> <strong>Max 24 Jam Pengerjaan Edit</strong></li>
+                        <li><i class="fas fa-check"></i> 15 Foto Retouch Pilihan Utama</li>
+                        <li><i class="fas fa-check"></i> Bebas Ganti Pose & Kombinasi Foto</li>
+                    </ul>
+                    <a href="https://wa.me/6285119337039?text=Halo%20Ray,%20saya%20tertarik%20booking%20Paket%20Duet%20Bestie%20(650k)" target="_blank" class="btn btn-outline btn-block">Booking Paket Duet</a>
+                </div>
+
+                <!-- Paket Squad / Group -->
+                <div class="package-card">
+                    <div class="package-header">
+                        <h3>Paket Squad (Group)</h3>
+                        <div class="price">IDR 950.000</div>
+                        <p>Abadikan momen seru bareng genk / geng kampusmu.</p>
+                    </div>
+                    <ul class="package-features">
+                        <li><i class="fas fa-check"></i> Untuk Rombongan 3 - 6 Orang</li>
+                        <li><i class="fas fa-check"></i> <strong>Unlimited Waktu (Seharian Sampai Puas)</strong></li>
+                        <li><i class="fas fa-check"></i> <strong>Unlimited Photo Files</strong></li>
+                        <li><i class="fas fa-check"></i> <strong>Max 24 Jam Pengerjaan Edit</strong></li>
+                        <li><i class="fas fa-check"></i> 25 Foto Retouch Pilihan Utama</li>
+                        <li><i class="fas fa-check"></i> Foto Individu & Group Sesi Lengkap</li>
+                    </ul>
+                    <a href="https://wa.me/6285119337039?text=Halo%20Ray,%20saya%20tertarik%20booking%20Paket%20Squad%20Group%20(950k)" target="_blank" class="btn btn-outline btn-block">Booking Paket Squad</a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Portfolio Gallery (8 Samples) -->
+    <section id="portfolio" class="portfolio">
+        <div class="container">
+            <div class="section-title">
+                <h2>Galeri <span class="highlight">Portofolio</span></h2>
+                <p>Beberapa hasil karya fotografi wisuda terbaik saya.</p>
+            </div>
+            <div class="portfolio-grid">
+                <div class="portfolio-item">
+                    <img src="portfolio-1.png" alt="Portfolio 1">
+                    <div class="portfolio-overlay"><span>Solo Graduate Session</span></div>
+                </div>
+                <div class="portfolio-item">
+                    <img src="portfolio-2.png" alt="Portfolio 2">
+                    <div class="portfolio-overlay"><span>Solo Graduate Session</span></div>
+                </div>
+                <div class="portfolio-item">
+                    <img src="portfolio-3.png" alt="Portfolio 3">
+                    <div class="portfolio-overlay"><span>Solo Graduate Session</span></div>
+                </div>
+                <div class="portfolio-item">
+                    <img src="portfolio-4.png" alt="Portfolio 4">
+                    <div class="portfolio-overlay"><span>Solo Graduate Session</span></div>
+                </div>
+                <div class="portfolio-item">
+                    <img src="portfolio-5.png" alt="Portfolio 5">
+                    <div class="portfolio-overlay"><span>Solo Graduate Session</span></div>
+                </div>
+                <div class="portfolio-item">
+                    <img src="portfolio-6.png" alt="Portfolio 6">
+                    <div class="portfolio-overlay"><span>Solo Graduate Session</span></div>
+                </div>
+                <div class="portfolio-item">
+                    <img src="portfolio-7.png" alt="Portfolio 7">
+                    <div class="portfolio-overlay"><span>Solo Graduate Session</span></div>
+                </div>
+                <div class="portfolio-item">
+                    <img src="portfolio-8.png" alt="Portfolio 8">
+                    <div class="portfolio-overlay"><span>Solo Graduate Session</span></div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Call to Action -->
+    <section id="contact" class="cta-section">
+        <div class="container cta-box">
+            <h2>Siap Mengabadikan Hari Bahagiamu?</h2>
+            <p>Slot tanggal wisuda terbatas setiap bulannya. Amankan jadwalmu sekarang & diskusikan konsep foto impianmu bersama Ray Dharma!</p>
+            <a href="https://wa.me/6285119337039?text=Halo%20Ray,%20saya%20mau%20booking%20jadwal%20foto%20wisuda" target="_blank" class="btn btn-primary btn-large"><i class="fab fa-whatsapp"></i> Chat WhatsApp Sekarang</a>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer>
+        <div class="container footer-content">
+            <p>&copy; 2026 Fotografi Wisuda by Ray Dharma. All Rights Reserved.</p>
+            <div class="social-links">
+                <a href="https://instagram.com/capturedby.rayd_" target="_blank"><i class="fab fa-instagram"></i></a>
+                <a href="https://wa.me/6285119337039" target="_blank"><i class="fab fa-whatsapp"></i></a>
+            </div>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
